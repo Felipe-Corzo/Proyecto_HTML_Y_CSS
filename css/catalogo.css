@@ -1,0 +1,254 @@
+/* header index */
+.header {
+    width: 100%;
+    background-color: #dfe0e2;
+    padding: 25 px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    position: fixed;   /* Fijo arriba */
+    top: 0;
+    left: 0;    
+    z-index: 10;
+}
+
+.logo{
+  width: 100px;        /* dale el tamaño que necesites */
+  height: 100px;
+  background: #ddd;
+  margin-left: 100px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* o cover, según lo que quieras */
+  display: block;
+  border-radius: 100%;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 50px;
+    margin-right: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #06143b;
+    font-size: 22px;
+    font-weight: 700;
+    transition: 0.3s;
+    box-shadow: 0 4px
+
+}
+
+.nav-menu a:hover {
+    color: #1d4ed8;
+}
+
+
+body {
+    margin-top: 130px;
+}
+
+.pregunta{
+  max-width: 1200px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 25px;
+}
+.pregunta h1{
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+.pregunta h3{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+/*SECCION DE LOS PERFILES PERRUNOS*/
+
+/* Contenedor general */
+.pets-section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* Tarjetas */
+.pet-card {
+    width: 250px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.2);
+    padding-bottom: 20px;
+    text-align: center;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Etiqueta verde */
+.tag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #6CE477;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tag-no {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: orange;
+    color: black;
+    padding: 3px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+/* Texto */
+.pet-card h3 {
+    margin: 10px 0;
+}
+
+.pet-card p {
+    margin: 3px 0;
+    color: #444;
+}
+/* Botón */
+.btn {
+    margin-top: 15px;
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.que-hacemos {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+    background: #a3bcda;
+    padding: 25px;
+    border-radius: 8px;
+  }
+  .que-hacemos h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .que-hacemos p {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+/* Hover del botón */
+.btn:hover {
+    background: #444;
+}
+
+.footer {
+    background: #0f0f0f;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    gap: 30px;
+  }
+  
+  /* -------- IZQUIERDA -------- */
+  .footer-left h3 {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .footer-left p {
+    margin: 5px 0 0;
+    opacity: 0.8;
+  }
+  
+  /* -------- CENTRO -------- */
+  .footer-center {
+    text-align: center;
+  }
+  
+  .footer-center h4 {
+    margin-bottom: 5px;
+  }
+  
+  .footer-center a {
+    color: #cbd5e1;
+    text-decoration: none;
+  }
+  
+  .footer-redes {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .footer-redes img {
+    width: 28px;
+    height: 28px;
+    filter: invert(100%);
+    transition: transform .2s ease;
+  }
+  
+  .footer-redes img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* -------- DERECHA -------- */
+  .footer-right {
+    text-align: right;
+    opacity: 0.8;
+  }
+  
+  /* -------- RESPONSIVE -------- */
+  @media (max-width: 850px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+  
+    .footer-right {
+        text-align: center;
+    }
+  }
+  
