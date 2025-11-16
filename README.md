@@ -52,3 +52,9 @@ El sitio está desarrollado con **HTML y CSS puro**, sin frameworks, optimizado 
 Puedes ver el wireframe completo en el siguiente enlace:
 
 👉 **Wireframe:** _[https://www.figma.com/design/DPeBz83Aeb1M5l5fYIhQ0W/Maqueta-Proyecto?node-id=0-1&m=dev&t=t5sEZurLUmlUJIKS-1]_  
+
+
+## 📌 NOTA IMPORTANTE:
+
+En los perfiles del catalogo, el unico que tiene popup para ver su perfil completo es TOBY (4).
+Esto por que el proyecto no tiene Backend desarrollado por tanto solo se muestra la información de un perfil.
