@@ -32,22 +32,21 @@ El sitio está desarrollado con **HTML y CSS puro**, sin frameworks, optimizado 
 ---
 
 ## 🗂️ Estructura del Proyecto
+    ## 📁 Estructura del Proyecto
 
-Proyecto
-├── css
-│ ├── catalogo.css
-│ ├── formulario.css
-│ └── index.css
-│
-├── html
-│ ├── catalogo.html
-│ ├── formulario.html
-│ └── index.html
-│
-├── img
-│ └── (imágenes...)
-│
-└── README.md
+- 📁 **Proyecto**
+  - 📁 **css**
+    - catalogo.css  
+    - formulario.css  
+    - index.css  
+  - 📁 **html**
+    - catalogo.html  
+    - formulario.html  
+    - index.html  
+  - 📁 **img**
+    - (imágenes...)
+  - 📄 README.md
+
 
 ## 🖼️ Wireframe del Proyecto
 
