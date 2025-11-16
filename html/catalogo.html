@@ -7,36 +7,36 @@
     <link rel="stylesheet" href="../css/catalogo.css">
     <link rel="stylesheet" href="../css/popup.css">
 </head>
+
+<body>
 <header class="header">
     <div class="logo">
         <img src="../img/ChatGPT Image 14 nov 2025, 01_46_52 p.m..png" alt="Logo">
     </div>
-
+    <div class="nombre"><h1>Fundación Patitas Felices</h1></div>
     <nav class="nav-menu">
         <a href="index.html">Home</a>
         <a href="catalogo.html" target="_blank"> Adoptar</a>
         <a href="formulario.html" target="_blank">Contacto</a>
     </nav>
 </header>
-<body>
+
     <section class="pregunta">
         <h1>Animales en Adopción</h1>
         <h3>
             Conoce a nuestros amigos peludos 🐾  que están buscando un hogar lleno de amor.❤️ Cada uno tiene una historia única y está esperando por ti.
         </h3>
     </section>
-
+    
     <!-- SECCION DE LOS PERFILES PERRUNOS -->
-
-
-
-
     <section class="pets-section">
+     
+        <!-- PERFILES -->
+
         <div class="pet-card">
             <div class="img-container">
                 <span class="tag">Disponible</span>
-                <img src="../img/mascotas/Rectangle 14.png" alt="Gato">
-                
+                <img src="../img/mascotas/Rectangle 14.png" alt="Gato">                
             </div>
             <h3>Luna</h3>
             <p>Edad: 2 años</p>
@@ -44,10 +44,6 @@
             <p>Raza: Gato Común</p>
             <button class="btn">Ver Perfil</button>
         </div>
-    
-
-
-
 
         <div class="pet-card">
             <div class="img-container">
@@ -78,11 +74,11 @@
                 <span class="tag">Disponible</span>
                 <img src="../img/mascotas/Rectangle 21.png" alt="perro">
             </div>
-            <h3>Toby<h3>
+            <h3>Toby</h3>
             <p>Edad: 6 meses</p>
             <p>Tamaño: Grande</p>
             <p>Raza: Labrador</p>
-            <button class="btn">Ver Perfil</button>
+            <label for="popup" class="btn">Ver Perfil</label>
         </div>
 
         <div class="pet-card">
@@ -181,6 +177,51 @@
                 <button class="btn">Ver Perfil</button>
             </div>
     </section>
+
+    <!-- CHECKBOX OCULTO -->
+<input type="checkbox" id="popup" class="popup-toggle">
+<div class="popup">
+    <div class="popup-content">
+        <label for="popup" class="close">✖</label>
+         <img src="../img/mascotas/Rectangle 21.png" class="popup-img">
+
+        <!-- INFORMACIÓN DEL PERRO -->
+        <h2>Toby</h2>
+        <p class="desc">
+            <hr>
+            
+           <span></span> 🐾 Toby llegó al refugio después de que unos vecinos lo encontraran vagando cerca de un parque. Aunque estaba un poco asustado al principio, rápidamente mostró su verdadera personalidad: un cachorro dulce, cariñoso y lleno de energía.
+
+Le encanta jugar con pelotas, seguir a las personas por todos lados y dormir hecho bolita cerca de quien le dé cariño. Los voluntarios dicen que es uno de los perros más sociables del refugio, y que siempre mueve la cola cuando ve a alguien nuevo.
+
+A pesar de su corta edad, Toby ha aprendido a convivir con otros perros y está demostrando ser muy inteligente y obediente. Ahora espera encontrar un hogar donde pueda crecer acompañado de una familia que lo quiera tanto como él quiere a las personas. <br><hr>
+           🩺 Ha sido evaluado por veterinario y se encuentra en excelente estado de salud.  ✅
+           </span>
+        </p>
+        <hr>
+        <!-- CARACTERÍSTICAS -->
+        <div class="caracteristicas">
+            <p><strong>🐶 Edad:</strong> 6 meses</p>
+            <p><strong>🐶 Sexo:</strong> Macho</p>
+            <p><strong>🐶 Tamaño:</strong> Grande</p>
+            <p><strong>🐶 Raza:</strong> Labrador</p>
+        </div>
+
+        <!-- CTA -->
+        <a class="adopt-btn">Solicitar Adopción</a>
+
+        <!-- ANIMALES RELACIONADOS -->
+        <h3 class="rel-title">Animales relacionados</h3>
+
+        <div class="relacionados">
+            <div class="rel-card"><img src="../img/mascotas/Rectangle 11.png"><p>Max</p></div>
+            <div class="rel-card"><img src="../img/mascotas/3ab1ef1a2b1e495eed03439b071d0edf.jpg"><p>Junior</p></div>
+            <div class="rel-card"><img src="../img/mascotas/Rectangle 2.png"><p>Rocky</p></div>
+            <div class="rel-card"><img src="../img/mascotas/5d2e0d5528ccde8487980e673899ad2e.jpg"><p>Atreus</p></div>
+            <div class="rel-card"><img src="../img/mascotas/Rectangle 27.png"><p>Barbas</p></div>
+        </div>
+    </div>
+</div>
     <hr>
     <section class="que-hacemos">
         <h1>¿Listo para adoptar?</h1>

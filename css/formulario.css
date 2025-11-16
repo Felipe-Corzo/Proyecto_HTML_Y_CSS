@@ -11,8 +11,21 @@
 
     position: fixed;   /* Fijo arriba */
     top: 0;
-    left: 0;    
+    left: 0;
     z-index: 10;
+}
+
+.nombre{
+  margin-right: 400px;
+  margin-block-end: 12px;
+  color: #06143b;
+
+}
+
+.nombre h1 {
+  font-size: 24px;
+  margin: 0;
+  font-weight: 700;
 }
 
 .logo{
@@ -222,8 +235,12 @@ body {
         flex-direction: column;
         text-align: center;
     }
-  
+
     .footer-right {
         text-align: center;
+    }
+
+    .nombre h1 {
+      font-size: 18px;
     }
   }

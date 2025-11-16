@@ -1,7 +1,7 @@
 /* header index */
 .header {
     width: 100%;
-    background-color: #dfe0e2;
+    background-color: #06143b;
     padding: 25 px;
     display: flex;
     align-items: center;
@@ -15,11 +15,24 @@
     left: 0;    
     z-index: 10;
 }
+.nombre{
+  margin-right: 400px;
+  margin-block-end: 12px;
+  color: #b5bbcc;
+  font-size: 14px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+.nombre h1 {
+  font-size: 30px;
+  margin: 0;
+  font-weight: 700;
+}
 .logo{
   width: 100px;        /* dale el tamaño que necesites */
   height: 100px;
-  background: #ddd;
+  background: #06143b;
   margin-left: 100px;
 }
 
@@ -39,7 +52,7 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: #06143b;
+    color: #d1d2d6;
     font-size: 22px;
     font-weight: 700;
     transition: 0.3s;
@@ -129,6 +142,130 @@ body {
     font-weight: bold;
 
 }
+
+
+/* ------- ESTILOS DEL BOTÓN ------- */
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* OCULTAR EL CHECKBOX */
+.popup-toggle {
+    display: none;
+}
+
+/* CAPA OSCURA DEL POPUP */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 999999;   /* SUPER ALTO */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-toggle:checked ~ .popup {
+    display: flex;
+}
+
+
+/* CONTENIDO DEL MODAL */
+.popup-content {
+    background: white;
+    padding: 35px;
+    width: 70%;
+    max-width: 600px;
+    max-height: 90vh;
+    border-radius: 20px;
+    position: relative;
+    overflow-y: auto;
+    animation: show 0.3s ease;
+    
+}
+.popup-content span {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+@keyframes show {
+    from { transform: scale(.8); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+/* BOTÓN DE CERRAR */
+.close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.popup-img {
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.desc {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* CARACTERÍSTICAS */
+.caracteristicas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+/* CTA */
+.adopt-btn {
+    background: #ff914d;
+    color: #fff;
+    padding: 12px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+/* RELACIONADOS */
+.rel-title {
+    margin-bottom: 10px;
+}
+
+.relacionados {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.rel-card {
+    min-width: 120px;
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.rel-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
 /* Texto */
 .pet-card h3 {
     margin: 10px 0;
@@ -137,18 +274,6 @@ body {
 .pet-card p {
     margin: 3px 0;
     color: #444;
-}
-/* Botón */
-.btn {
-    margin-top: 15px;
-    background: black;
-    color: white;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 25px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s;
 }
 
 .que-hacemos {
@@ -246,9 +371,13 @@ body {
         flex-direction: column;
         text-align: center;
     }
-  
+
     .footer-right {
         text-align: center;
+    }
+
+    .nombre h1 {
+      font-size: 18px;
     }
   }
   

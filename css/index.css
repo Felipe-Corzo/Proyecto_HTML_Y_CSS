@@ -1,7 +1,7 @@
 /* header index */
 .header {
     width: 100%;
-    background-color: #dfe0e2;
+    background-color: #06143b;
     padding: 25 px;
     display: flex;
     align-items: center;
@@ -15,11 +15,22 @@
     left: 0;    
     z-index: 10;
 }
+.nombre{
+  margin-right: 400px;
+  margin-block-end: 12px;
+  color: #b5bbcc;
 
+}
+
+.nombre h1 {
+  font-size: 30px;
+  margin: 30;
+  font-weight: 700;
+}
 .logo{
   width: 100px;        /* dale el tamaño que necesites */
   height: 100px;
-  background: #ddd;
+  background: #06143b;
   margin-left: 100px;
 }
 
@@ -39,7 +50,7 @@
 
 .nav-menu a {
     text-decoration: none;
-    color: #06143b;
+    color: #b5bbcc;
     font-size: 22px;
     font-weight: 700;
     transition: 0.3s;
@@ -430,5 +441,9 @@ body {
 
   .footer-right {
       text-align: center;
+  }
+
+  .nombre h1 {
+    font-size: 18px;
   }
 }
