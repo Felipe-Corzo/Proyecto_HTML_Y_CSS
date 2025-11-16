@@ -502,34 +502,47 @@ body {
   color: #333;
 }
 
-/*  FOOTER */
+/* FOOTER */
 .footer {
-  background: #0f0f0f;
-  color: #fff;
-  padding: 40px 20px;
-  margin-top: 40px;
+    background: #0f0f0f;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: auto;
+    max-width: 1200px;
+    margin: auto;
 
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
 }
 
 /* -------- IZQUIERDA -------- */
-.footer-left h3 {
-  margin: 0;
-  font-size: 20px;
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* separa imagen de texto */
 }
 
-.footer-left p {
-  margin: 5px 0 0;
-  opacity: 0.8;
+.footer-left img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.footer-title p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #c0c6d6;
+    line-height: 1.1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* junta las líneas */
 }
 
 /* -------- CENTRO -------- */
@@ -539,11 +552,13 @@ body {
 
 .footer-center h4 {
   margin-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer-center a {
   color: #cbd5e1;
   text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .footer-redes {
@@ -566,22 +581,23 @@ body {
 
 /* -------- DERECHA -------- */
 .footer-right {
-  text-align: right;
-  opacity: 0.8;
+    text-align: right;
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 /* -------- RESPONSIVE -------- */
 @media (max-width: 850px) {
-  .footer-container {
-      flex-direction: column;
-      text-align: center;
-  }
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
 
-  .footer-right {
-      text-align: center;
-  }
+    .footer-left {
+        flex-direction: column;
+    }
 
-  .nombre h1 {
-    font-size: 18px;
-  }
+    .footer-right {
+        text-align: center;
+    }
 }

@@ -5,7 +5,7 @@ body {
 .header {
     width: 100%;
     background-color: #06143b;
-    padding: 25px ;
+    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +13,7 @@ body {
 
     position: fixed;
     top: 0;
-    left: 0;    
+    left: 0;
     z-index: 10;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 .nav-menu a {
-    text-decoration:none;
+    text-decoration: none;
     color: #b5bbcc;
     font-size: 23px;
     font-weight: 700;
@@ -70,9 +70,11 @@ body {
     .header {
         padding: 15px 25px;
     }
+
     .nombre h1 {
         font-size: 24px;
     }
+
     .nav-menu {
         gap: 25px;
     }
@@ -85,48 +87,53 @@ body {
         padding: 15px 20px;
         gap: 10px;
     }
+
     .logo {
         width: 60px;
         height: 60px;
     }
+
     .nombre h1 {
         font-size: 20px;
         text-align: center;
     }
+
     .nav-menu {
         width: 100%;
         justify-content: center;
         flex-wrap: wrap;
         gap: 15px;
     }
+
     .nav-menu a {
         font-size: 18px;
     }
 }
 
-.pregunta{
-  max-width: 1200px;
-  margin: 40px auto;
-  text-align: center;
-  padding: 25px;
-}
-.pregunta h1{
-  font-size: 50px;
-  margin-bottom: 10px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  
+.pregunta {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 25px;
 }
 
-.pregunta h3{
-  font-size: 30px;
-  margin-bottom: 10px;
-  color: #303136;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.pregunta h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.pregunta h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #303136;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .contact-container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1200px;
     margin: 40px auto;
     display: flex;
     gap: 40px;
@@ -200,86 +207,102 @@ body {
     margin-top: 20px;
 }
 
-/*  FOOTER */
+/* FOOTER */
 .footer {
     background: #0f0f0f;
     color: #fff;
     padding: 40px 20px;
     margin-top: 40px;
-  }
-  
-  .footer-container {
+}
+
+.footer-container {
     max-width: 1200px;
     margin: auto;
-  
+
     display: flex;
     justify-content: space-between;
     align-items: center;
-  
     gap: 30px;
-  }
-  
-  /* -------- IZQUIERDA -------- */
-  .footer-left h3 {
-    margin: 0;
-    font-size: 20px;
-  }
-  
-  .footer-left p {
-    margin: 5px 0 0;
-    opacity: 0.8;
-  }
-  
-  /* -------- CENTRO -------- */
-  .footer-center {
-    text-align: center;
-  }
-  
-  .footer-center h4 {
-    margin-bottom: 5px;
-  }
-  
-  .footer-center a {
-    color: #cbd5e1;
-    text-decoration: none;
-  }
-  
-  .footer-redes {
-    margin-top: 10px;
+}
+
+/* -------- IZQUIERDA -------- */
+.footer-left {
     display: flex;
-    justify-content: center;
-    gap: 15px;
-  }
-  
-  .footer-redes img {
-    width: 28px;
-    height: 28px;
-    filter: invert(100%);
-    transition: transform .2s ease;
-  }
-  
-  .footer-redes img:hover {
-    transform: scale(1.1);
-  }
-  
-  /* -------- DERECHA -------- */
-  .footer-right {
+    align-items: center;
+    gap: 20px;
+    /* separa imagen de texto */
+}
+
+.footer-left img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.footer-title p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #c0c6d6;
+    line-height: 1.1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* junta las líneas */
+}
+
+/* -------- CENTRO -------- */
+.footer-center {
+  text-align: center;
+}
+
+.footer-center h4 {
+  margin-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-center a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-redes {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-redes img {
+  width: 28px;
+  height: 28px;
+  filter: invert(100%);
+  transition: transform .2s ease;
+}
+
+.footer-redes img:hover {
+  transform: scale(1.1);
+}
+
+/* -------- DERECHA -------- */
+.footer-right {
     text-align: right;
     opacity: 0.8;
-  }
-  
-  /* -------- RESPONSIVE -------- */
-  @media (max-width: 850px) {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 850px) {
     .footer-container {
         flex-direction: column;
         text-align: center;
     }
 
+    .footer-left {
+        flex-direction: column;
+    }
+
     .footer-right {
         text-align: center;
     }
-
-    .nombre h1 {
-      font-size: 18px;
-    }
-  }
+}
