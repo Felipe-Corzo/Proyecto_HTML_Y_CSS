@@ -32,7 +32,6 @@ El sitio está desarrollado con **HTML y CSS puro**, sin frameworks, optimizado 
 ---
 
 ## 🗂️ Estructura del Proyecto
-    ## 📁 Estructura del Proyecto
 
 - 📁 **Proyecto**
   - 📁 **css**
