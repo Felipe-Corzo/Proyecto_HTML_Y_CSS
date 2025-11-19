@@ -213,7 +213,7 @@ body {
     align-items: center;
 }
 
-.popup-toggle:checked ~ .popup {
+.popup-toggle:checked + .popup {
     display: flex;
 }
 
