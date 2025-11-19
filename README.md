@@ -21,7 +21,7 @@ El objetivo principal es ofrecer un espacio **claro, atractivo y funcional**, do
 El sitio está desarrollado con **HTML y CSS puro**, sin frameworks, optimizado para ser **responsive** y **accesible**.
 
 
-## Instrucciones de ejecución
+## 🧑‍🔧 Instrucciones de ejecución
 
 Para ejecutar y ver el sitio en tu máquina local, sigue estos pasos:
 
