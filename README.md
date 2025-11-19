@@ -20,6 +20,20 @@ El objetivo principal es ofrecer un espacio **claro, atractivo y funcional**, do
 
 El sitio está desarrollado con **HTML y CSS puro**, sin frameworks, optimizado para ser **responsive** y **accesible**.
 
+
+## Instrucciones de ejecución
+
+Para ejecutar y ver el sitio en tu máquina local, sigue estos pasos:
+
+1. Clona el repositorio:
+   -git clone https://github.com/Felipe-Corzo/Proyecto_HTML_Y_CSS.git
+2.Ingresa a la carpeta del proyecto:
+   -cd Proyecto_HTML_Y_CSS
+3. Abre el archivo index.html con tu navegador favorito.
+   Puedes hacer doble clic sobre el archivo o ejecutarlo desde la terminal
+4. Navega entre las vistas: 
+   la página de inicio (index.html), el catálogo de mascotas (catalogo.html) y el formulario de adopción (formulario.html).
+
 ---
 
 ## 🧱 Tecnologías Utilizadas
@@ -41,9 +55,9 @@ El sitio está desarrollado con **HTML y CSS puro**, sin frameworks, optimizado 
   - 📁 **html**
     - catalogo.html  
     - formulario.html  
-    - index.html  
   - 📁 **img**
     - (imágenes...)
+  - 📄 index.html  
   - 📄 README.md
 
 
@@ -58,3 +72,11 @@ Puedes ver el wireframe completo en el siguiente enlace:
 
 En los perfiles del catalogo, el unico que tiene popup para ver su perfil completo es TOBY (4).
 Esto por que el proyecto no tiene Backend desarrollado por tanto solo se muestra la información de un perfil.
+
+## CAPTURAS DE LAS PAGINAS: 
+ 
+![Página principal](img/Capturas%20pagina/home.png)  
+![Catálogo de mascotas](img/Capturas%20pagina/catalogo.png)  
+![Formulario de adopción](img/Capturas%20pagina/formulario.png)
+
+ 
