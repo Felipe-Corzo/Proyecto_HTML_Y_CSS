@@ -74,9 +74,11 @@ En los perfiles del catalogo, el unico que tiene popup para ver su perfil comple
 Esto por que el proyecto no tiene Backend desarrollado por tanto solo se muestra la información de un perfil.
 
 ## CAPTURAS DE LAS PAGINAS: 
- 
+### Home 
 ![Página principal](img/Capturas%20pagina/home.png)  
+### Catalogo de mascotas
 ![Catálogo de mascotas](img/Capturas%20pagina/catalogo.png)  
+### Formulario
 ![Formulario de adopción](img/Capturas%20pagina/formulario.png)
 
  
