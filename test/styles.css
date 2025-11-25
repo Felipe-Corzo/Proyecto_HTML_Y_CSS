@@ -1,0 +1,311 @@
+body {
+    margin-top: 130px;
+}
+
+.header {
+    width: 100%;
+    background-color: #06143b;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 0;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+/* NOMBRE */
+.nombre {
+    color: #c0c6d6;
+    margin: 0 40px;
+    flex-grow: 1;
+}
+
+.nombre h1 {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* NAV */
+.nav-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #b5bbcc;
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.3s;
+    box-shadow: 0 2px;
+}
+
+.nav-menu a:hover {
+    color: #1d4ed8;
+}
+
+@media (max-width: 900px) {
+    .header {
+        padding: 15px 25px;
+    }
+
+    .nombre h1 {
+        font-size: 24px;
+    }
+
+    .nav-menu {
+        gap: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .header {
+        flex-direction: column;
+        padding: 15px 20px;
+        gap: 10px;
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .nombre h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .nav-menu {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .nav-menu a {
+        font-size: 18px;
+    }
+}
+
+.pregunta {
+    max-width: 1200px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.pregunta h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pregunta h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* ---- Misión y Visión ---- */
+.mision-vision {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 30px;
+    max-width: 1900px;
+    margin: 30px auto;
+}
+
+.bloque {
+    display: flex;
+    justify-content:  10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    background: #a3bcda;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: justify;
+    gap: 45px;
+}
+
+.bloque .icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.bloque h6 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+.bloque h1 {
+    font-size: 80px;
+    width: 140px;
+    
+}
+.barras {
+    display: flex;
+    justify-content:  10px;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    gap: 25px;
+    margin-left: 30px;
+
+}
+.barra1 {
+    background-color: #3159c5;
+    width: 25px;
+    height: 200px;
+}
+
+.barra2 {
+    background-color: #06143b;
+    width: 25px;
+    height: 300px;
+}
+.barra3 {
+    background-color: #636875;
+    width: 25px;
+    height: 100px;
+}
+.link-card {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+}
+
+.contribuye {
+    background-color: #0a1640; /* mismo azul oscuro que el fondo */
+    color: white;
+    border: none;
+    padding: 15px;
+    
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #0a1640
+}
+
+/* FOOTER */
+.footer {
+    background: #0f0f0f;
+    color: #fff;
+    padding: 40px 20px;
+    margin-top: 40px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+/* -------- IZQUIERDA -------- */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* separa imagen de texto */
+}
+
+.footer-left img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.footer-title p {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #c0c6d6;
+    line-height: 1.1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* junta las líneas */
+}
+
+/* -------- CENTRO -------- */
+.footer-center {
+  text-align: center;
+}
+
+.footer-center h4 {
+  margin-bottom: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-center a {
+  color: #cbd5e1;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-redes {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-redes img {
+  width: 28px;
+  height: 28px;
+  filter: invert(100%);
+  transition: transform .2s ease;
+}
+
+.footer-redes img:hover {
+  transform: scale(1.1);
+}
+
+/* -------- DERECHA -------- */
+.footer-right {
+    text-align: right;
+    opacity: 0.8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* -------- RESPONSIVE -------- */
+@media (max-width: 850px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-left {
+        flex-direction: column;
+    }
+
+    .footer-right {
+        text-align: center;
+    }
+}
